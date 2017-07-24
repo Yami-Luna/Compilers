@@ -1,0 +1,50 @@
+graph{0 [label = "program"];1[label = "includes"];0--1;2[label = "include
+#include <stdio.h>"];1--2;3[label = "statements"];0--3;4[label = "VarDecl"];3--4;5[label = "typeDecl"];4--5;6[label = "Type
+int"];5--6;7[label = "ID
+i"];4--7;8[label = "Definition"];3--8;9[label = "ID
+i"];8--9;10[label = "Assignement
++="];8--10;11[label = "lowest"];8--11;12[label = "Const"];11--12;13[label = "ConstInt
+5"];12--13;14[label = "FunDecl"];3--14;15[label = "typeDecl"];14--15;16[label = "Type
+int"];15--16;17[label = "ID
+haha"];14--17;18[label = "Parameterlist"];14--18;19[label = "Definition"];3--19;20[label = "typeDecl"];19--20;21[label = "Type
+int"];20--21;22[label = "Pointer
+*"];20--22;23[label = "ID
+a"];19--23;24[label = "Assignement
+="];19--24;25[label = "new"];19--25;26[label = "typeDecl"];25--26;27[label = "Type
+int"];26--27;28[label = "function"];3--28;29[label = "typeDecl"];28--29;30[label = "Type
+int"];29--30;31[label = "ID
+main"];28--31;32[label = "Parameterlist"];28--32;33[label = "statements"];28--33;34[label = "Definition"];33--34;35[label = "typeDecl"];34--35;36[label = "Type
+int"];35--36;37[label = "ID
+b"];34--37;38[label = "Assignement
+="];34--38;39[label = "lowest"];34--39;40[label = "ID
+a"];39--40;41[label = "Definition"];33--41;42[label = "typeDecl"];41--42;43[label = "Type
+int"];42--43;44[label = "ID
+i"];41--44;45[label = "Assignement
+="];41--45;46[label = "lowest"];41--46;47[label = "Const"];46--47;48[label = "ConstInt
+5"];47--48;49[label = "If"];33--49;50[label = "=="];49--50;51[label = "lowest"];50--51;52[label = "ID
+i"];51--52;53[label = "lowest"];50--53;54[label = "Const"];53--54;55[label = "ConstInt
+5"];54--55;56[label = "statements"];49--56;57[label = "While"];56--57;58[label = "or"];57--58;59[label = "and"];58--59;60[label = "=="];59--60;61[label = "lowest"];60--61;62[label = "ID
+i"];61--62;63[label = "lowest"];60--63;64[label = "Const"];63--64;65[label = "ConstInt
+5"];64--65;66[label = "<"];59--66;67[label = "lowest"];66--67;68[label = "Const"];67--68;69[label = "ConstFloat
+0.1"];68--69;70[label = "lowest"];66--70;71[label = "Const"];70--71;72[label = "ConstFloat
+0.3"];71--72;73[label = "and"];58--73;74[label = "!="];73--74;75[label = "lowest"];74--75;76[label = "Const"];75--76;77[label = "ConstChar
+'a'"];76--77;78[label = "lowest"];74--78;79[label = "Const"];78--79;80[label = "ConstChar
+'b'"];79--80;81[label = "lowest"];73--81;82[label = "UnOp
+!"];81--82;83[label = "lowest"];81--83;84[label = "Const"];83--84;85[label = "ConstInt
+0"];84--85;86[label = "statements"];57--86;87[label = "Definition"];86--87;88[label = "ID
+i"];87--88;89[label = "Assignement
+-="];87--89;90[label = "lowest"];87--90;91[label = "Const"];90--91;92[label = "ConstInt
+1"];91--92;93[label = "Definition"];56--93;94[label = "ID
+i"];93--94;95[label = "Assignement
+="];93--95;96[label = "+"];93--96;97[label = "/"];96--97;98[label = "lowest"];97--98;99[label = "Const"];98--99;100[label = "ConstInt
+4"];99--100;101[label = "lowest"];97--101;102[label = "Const"];101--102;103[label = "ConstInt
+2"];102--103;104[label = "lowest"];96--104;105[label = "ID
+i"];104--105;106[label = "Else"];49--106;107[label = "Definition"];106--107;108[label = "ID
+i"];107--108;109[label = "Assignement
++="];107--109;110[label = "lowest"];107--110;111[label = "Const"];110--111;112[label = "ConstInt
+1"];111--112;113[label = "function"];33--113;114[label = "typeDecl"];113--114;115[label = "Type
+void"];114--115;116[label = "ID
+foo"];113--116;117[label = "Parameterlist"];113--117;118[label = "Parameter"];117--118;119[label = "typeDecl"];118--119;120[label = "Type
+char"];119--120;121[label = "statements"];113--121;122[label = "VarDecl"];121--122;123[label = "typeDecl"];122--123;124[label = "Type
+bool"];123--124;125[label = "ID
+hoho"];122--125;126[label = "return"];121--126;}

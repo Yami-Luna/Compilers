@@ -1,0 +1,60 @@
+graph{0 [label = "program"];1[label = "includes"];0--1;2[label = "includes"];1--2;3[label = "include
+#include <stdio.h>"];1--3;4[label = "statements"];0--4;5[label = "VarDecl"];4--5;6[label = "typeDecl"];5--6;7[label = "Type
+int"];6--7;8[label = "ID
+i"];5--8;9[label = "statements"];4--9;10[label = "Definition"];9--10;11[label = "ID
+i"];10--11;12[label = "Assignement
++="];10--12;13[label = "Expression"];10--13;14[label = "Or"];13--14;15[label = "And"];14--15;16[label = "Equality"];15--16;17[label = "Compare"];16--17;18[label = "Addition"];17--18;19[label = "Multiplication"];18--19;20[label = "finalCondition"];19--20;21[label = "lowest"];20--21;22[label = "Const"];21--22;23[label = "ConstInt
+5"];22--23;24[label = "statements"];9--24;25[label = "FunDecl"];24--25;26[label = "typeDecl"];25--26;27[label = "Type
+int"];26--27;28[label = "ID
+haha"];25--28;29[label = "Parameterlist"];25--29;30[label = "statements"];24--30;31[label = "Definition"];30--31;32[label = "typeDecl"];31--32;33[label = "Type
+int"];32--33;34[label = "Pointer
+*"];32--34;35[label = "ID
+a"];31--35;36[label = "Assignement
+="];31--36;37[label = "Expression"];31--37;38[label = "typeDecl"];37--38;39[label = "Type
+int"];38--39;40[label = "statements"];30--40;41[label = "function"];40--41;42[label = "typeDecl"];41--42;43[label = "Type
+int"];42--43;44[label = "ID
+main"];41--44;45[label = "Parameterlist"];41--45;46[label = "statements"];41--46;47[label = "Definition"];46--47;48[label = "typeDecl"];47--48;49[label = "Type
+int"];48--49;50[label = "ID
+b"];47--50;51[label = "Assignement
+="];47--51;52[label = "Expression"];47--52;53[label = "Or"];52--53;54[label = "And"];53--54;55[label = "Equality"];54--55;56[label = "Compare"];55--56;57[label = "Addition"];56--57;58[label = "Multiplication"];57--58;59[label = "finalCondition"];58--59;60[label = "UnOp
+*"];59--60;61[label = "lowest"];59--61;62[label = "ID
+a"];61--62;63[label = "statements"];46--63;64[label = "Definition"];63--64;65[label = "typeDecl"];64--65;66[label = "Type
+int"];65--66;67[label = "ID
+i"];64--67;68[label = "Assignement
+="];64--68;69[label = "Expression"];64--69;70[label = "Or"];69--70;71[label = "And"];70--71;72[label = "Equality"];71--72;73[label = "Compare"];72--73;74[label = "Addition"];73--74;75[label = "Multiplication"];74--75;76[label = "finalCondition"];75--76;77[label = "lowest"];76--77;78[label = "Const"];77--78;79[label = "ConstInt
+5"];78--79;80[label = "statements"];63--80;81[label = "If"];80--81;82[label = "Expression"];81--82;83[label = "Or"];82--83;84[label = "And"];83--84;85[label = "Equality"];84--85;86[label = "Equality"];85--86;87[label = "Compare"];86--87;88[label = "Addition"];87--88;89[label = "Multiplication"];88--89;90[label = "finalCondition"];89--90;91[label = "lowest"];90--91;92[label = "ID
+i"];91--92;93[label = "EqOp
+=="];85--93;94[label = "Compare"];85--94;95[label = "Addition"];94--95;96[label = "Multiplication"];95--96;97[label = "finalCondition"];96--97;98[label = "lowest"];97--98;99[label = "Const"];98--99;100[label = "ConstInt
+5"];99--100;101[label = "statements"];81--101;102[label = "While"];101--102;103[label = "Expression"];102--103;104[label = "Or"];103--104;105[label = "Or"];104--105;106[label = "And"];105--106;107[label = "And"];106--107;108[label = "Equality"];107--108;109[label = "Equality"];108--109;110[label = "Compare"];109--110;111[label = "Addition"];110--111;112[label = "Multiplication"];111--112;113[label = "finalCondition"];112--113;114[label = "lowest"];113--114;115[label = "ID
+i"];114--115;116[label = "EqOp
+=="];108--116;117[label = "Compare"];108--117;118[label = "Addition"];117--118;119[label = "Multiplication"];118--119;120[label = "finalCondition"];119--120;121[label = "lowest"];120--121;122[label = "Const"];121--122;123[label = "ConstInt
+5"];122--123;124[label = "Compare"];106--124;125[label = "Compare"];124--125;126[label = "Addition"];125--126;127[label = "Multiplication"];126--127;128[label = "finalCondition"];127--128;129[label = "lowest"];128--129;130[label = "Const"];129--130;131[label = "ConstFloat
+0.1"];130--131;132[label = "RelOp
+<"];124--132;133[label = "Addition"];124--133;134[label = "Multiplication"];133--134;135[label = "finalCondition"];134--135;136[label = "lowest"];135--136;137[label = "Const"];136--137;138[label = "ConstFloat
+0.3"];137--138;139[label = "And"];104--139;140[label = "And"];139--140;141[label = "Equality"];140--141;142[label = "Equality"];141--142;143[label = "Compare"];142--143;144[label = "Addition"];143--144;145[label = "Multiplication"];144--145;146[label = "finalCondition"];145--146;147[label = "lowest"];146--147;148[label = "Const"];147--148;149[label = "ConstChar
+'a'"];148--149;150[label = "EqOp
+!="];141--150;151[label = "Compare"];141--151;152[label = "Addition"];151--152;153[label = "Multiplication"];152--153;154[label = "finalCondition"];153--154;155[label = "lowest"];154--155;156[label = "Const"];155--156;157[label = "ConstChar
+'b'"];156--157;158[label = "Compare"];139--158;159[label = "Addition"];158--159;160[label = "Multiplication"];159--160;161[label = "finalCondition"];160--161;162[label = "UnOp
+!"];161--162;163[label = "lowest"];161--163;164[label = "Const"];163--164;165[label = "ConstInt
+0"];164--165;166[label = "statements"];102--166;167[label = "Definition"];166--167;168[label = "ID
+i"];167--168;169[label = "Assignement
+-="];167--169;170[label = "Expression"];167--170;171[label = "Or"];170--171;172[label = "And"];171--172;173[label = "Equality"];172--173;174[label = "Compare"];173--174;175[label = "Addition"];174--175;176[label = "Multiplication"];175--176;177[label = "finalCondition"];176--177;178[label = "lowest"];177--178;179[label = "Const"];178--179;180[label = "ConstInt
+1"];179--180;181[label = "statements"];166--181;182[label = "statements"];101--182;183[label = "Definition"];182--183;184[label = "ID
+i"];183--184;185[label = "Assignement
+="];183--185;186[label = "Expression"];183--186;187[label = "Or"];186--187;188[label = "And"];187--188;189[label = "Equality"];188--189;190[label = "Compare"];189--190;191[label = "Addition"];190--191;192[label = "Addition"];191--192;193[label = "Multiplication"];192--193;194[label = "Multiplication"];193--194;195[label = "finalCondition"];194--195;196[label = "lowest"];195--196;197[label = "Const"];196--197;198[label = "ConstInt
+4"];197--198;199[label = "MultOp
+/"];193--199;200[label = "finalCondition"];193--200;201[label = "lowest"];200--201;202[label = "Const"];201--202;203[label = "ConstInt
+2"];202--203;204[label = "AddOp
++"];191--204;205[label = "Multiplication"];191--205;206[label = "finalCondition"];205--206;207[label = "lowest"];206--207;208[label = "ID
+i"];207--208;209[label = "statements"];182--209;210[label = "Else"];81--210;211[label = "Definition"];210--211;212[label = "ID
+i"];211--212;213[label = "Assignement
++="];211--213;214[label = "Expression"];211--214;215[label = "Or"];214--215;216[label = "And"];215--216;217[label = "Equality"];216--217;218[label = "Compare"];217--218;219[label = "Addition"];218--219;220[label = "Multiplication"];219--220;221[label = "finalCondition"];220--221;222[label = "lowest"];221--222;223[label = "Const"];222--223;224[label = "ConstInt
+1"];223--224;225[label = "statements"];80--225;226[label = "function"];225--226;227[label = "typeDecl"];226--227;228[label = "Type
+void"];227--228;229[label = "ID
+foo"];226--229;230[label = "Parameterlist"];226--230;231[label = "Parameter"];230--231;232[label = "typeDecl"];231--232;233[label = "Type
+char"];232--233;234[label = "ID
+c"];231--234;235[label = "Parameter"];230--235;236[label = "typeDecl"];235--236;237[label = "Type
+int"];236--237;238[label = "ID
+l"];235--238;239[label = "statements"];226--239;240[label = "VarDecl"];239--240;241[label = "typeDecl"];240--241;242[label = "Type
+bool"];241--242;243[label = "ID
+hoho"];240--243;244[label = "statements"];239--244;245[label = "return"];244--245;246[label = "statements"];244--246;247[label = "statements"];225--247;248[label = "statements"];40--248;}
